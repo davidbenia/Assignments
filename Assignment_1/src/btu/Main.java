@@ -1,7 +1,7 @@
 package btu;
 import btu.Task1.*;
-//import btu.Task2.*;
-//import btu.Task3.*;
+import btu.Task2.*;
+import btu.Task3.*;
 
 public class Main {
 
@@ -14,5 +14,17 @@ public class Main {
         System.out.format("\nInteger c: %d\nDigit sum: %d\n", object_1.c, object_1.Method_4());
         //object_1.Method_5() is called by object_1.Method_6();
         object_1.Method_6();
+
+        ClassB object_2 = new ClassB();
+
+        object_2.Method_1();
+        object_2.Method_2();
+        object_2.Method_3();
+        object_2.Method_4();
+        System.out.format("\nint x + int y = %d\n", object_2.Method_5());
+
+        RandomOddEven object_3 = new RandomOddEven();
+
+        object_3.MainMethod();
     }
 }
