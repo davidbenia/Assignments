@@ -46,7 +46,7 @@ public class ClassC {
         return digit_sum_int;
     }
 
-    public int Method_5(){
+    private int Method_5(){
         int answer = this.Method_2() * this.Method_3();
 
         System.out.format("\nint a last digit multiplied by int b first digit:\n%d\n", answer);
